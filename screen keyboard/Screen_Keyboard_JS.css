@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    background-color: #f2baf7;
+   
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+
+*:focus {
+    outline: 2px solid #ff00c8;
+}
+
+.keyboard-row {
+    display: grid;
+    gap: 0 10px;
+    margin-bottom: 10px;
+    
+}
+
+.keyboard-row--1 {
+    grid-template-columns: repeat(13, 70px);
+}
+
+
+.keyboard-row--2 {
+    grid-template-columns: repeat(12, 70px);
+}
+
+.keyboard-row--3 {
+    grid-template-columns: repeat(13, 70px);
+}
+
+.keyboard-row--4 {
+    grid-template-columns: repeat(11, 70px);
+}
+
+.keyboard_key, .keyboard__caps {
+    width: 70px;
+    height: 70px;
+    background-color: #8a8a8a;
+    border-radius: 6px;
+    text-align: center;
+    padding: 23px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.keyboard__caps {
+    grid-column: span 2;
+    width: 150px;
+}
+
+.keyboard_key:hover, .keyboard__caps:hover {
+    background-color: white;
+}
