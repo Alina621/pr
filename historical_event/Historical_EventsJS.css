@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    background-color: #756d66;
+    background-image: url(../historical_event/free-png.ru-336.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: whitesmoke;
+}
+
+span{
+    color: rgb(248, 180, 91);
+}
+
+.wrapper {
+    min-height: 100%;
+    max-width: 1150px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #eba26f;
+    margin-top: 1%;
+}
+
+.input {
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.input:focus {
+    outline: 3px solid rgb(233, 171, 100);
+}
+
+.events__cell {
+    background-color: #f5d1a7;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.events__cell:first-child{
+    height: 70px;
+    max-width: 100px;
+}
+.events__cell:last-child {
+    height: 50px;
+    max-width: 800px;
+}
+
+
+p {
+    margin-bottom: 10px;
+    font-size: 22px;
+}

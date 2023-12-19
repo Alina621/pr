@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="HoroscopeJS.css">
+    <script  src="HoroscopeJS.js" defer ></script>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="tr">
+        <h1>
+            Гороскоп на 3 дня
+        </h1>
+        <form action="#" class="form">
+            <label for="data">
+                Введите свою дату рождения:
+            </label>
+            <input type="date" id="data" name="date">
+            <div class="checkbox">
+                <input type="radio" id="today" name="day" value="today" checked>
+                <label for="today">
+                    Сегодня
+                </label>
+                <input type="radio" id="tomorrow" name="day" value="tomorrow">
+                <label for="tomorrow">
+                    Завтра
+                </label>
+                <input type="radio" id="day" name="day" value="day">
+                <label for="day">
+                    Послезавтра
+                </label>
+            </div>
+        </form>
+        <button id="generate">
+            Получить гороскоп
+        </button>
+        <p id="horoscope">
+        </p>
+    </div>
+    </div>
+</body>
+</html>
