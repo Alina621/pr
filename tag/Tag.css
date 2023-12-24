@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    background-color: #e2c3ff;
+}
+
+.wrapper {
+    min-height: 100%;
+    max-width: 1600px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 500px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.input:focus {
+    outline: 2px solid rgb(67, 46, 189);
+}
+
+.tag__cell {
+    background-color: #d2a2ff;
+    padding: 15px;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+}
+

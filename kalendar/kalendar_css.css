@@ -1,0 +1,35 @@
+body{
+	background-color: rgba(243, 109, 255, 0.274);
+}
+
+#parent {
+	text-align: center;
+}
+#calendar {
+	display: inline-block;
+}
+#calendar td, #calendar th {
+	padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	text-align: center;
+}
+
+#calendar .nav, #calendar .info {
+	text-align: center;
+}
+#calendar a {
+	color: rgb(225, 0, 255);
+	font-size: 25px;
+	text-decoration: none;
+}
+#calendar a:hover {
+	color: rgba(247, 0, 255, 0.404);
+}
+
+#calendar .active {
+	color: rgba(255, 0, 234, 0.411);
+}
+
+.prev {
+    margin-right: 10px;
+}
